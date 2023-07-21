@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+<p align="center"> <img src="src/assets/logo.svg"> </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> <h2>Índice</h2>
 
-## Available Scripts
+<ul>
+	<li>Sobre</li>
+	<li>Tecnologias</li>
+	<li>Um Pouco do Projeto</li>
+	<li>Instalando</li>
+</ul>
 
-In the project directory, you can run:
+## Sobre
+<p align="center"> <img src="public/assets/screenshots/Screenshot-1.png"> </p>
+<p align="center">  O projeto Aluroni consiste em um restaurante italiano com diversos pratos em seu cardápio que agrada todos os gostos. Com essa premissa, esse site foi desenvolvido no aprendizado de trabalhar com a biblioteca React Router e desenvolver um código limpo e fácil de entender. Além disso, é um projeto de grande aprendizado com refatoração de código utilizando o ESLint, trabalhar com o react-router-dom de forma simples e prática, e desenvolver as telas com reaproveitamento de componentes. </p>
 
-### `npm start`
+## Tecnologias
+<ul>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>JavaScript</li>
+	<li>TypeScript</li>
+  <li>React</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Um Pouco do Projeto
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ > ### Cardápio
+  <p> O Cardápio foi desenvolvido com 4 tipos diferentes de pratos e certamente com um filtro para pesquisa do mesmo. Além disso, possui uma barra de pesquisa e um ordenador para facilitar as buscas.</p>
+  <p align="center"> <img src="public/assets/screenshots/Screenshot-2.png"> </p>
 
-### `npm test`
+ > ### Sobre
+  <p> A tela de Sobre fica com a descrição completa do restaurante.</p>
+  <p align="center"> <img src="public/assets/screenshots/Screenshot-3.png"> </p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalando
 
-### `npm run build`
+Para utilizar o projeto é necessário ter o Node.JS na versão LTS.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Este projeto foi inicializado com [Create React App]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ### Instalando as dependências
+  
+  `npm install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ### No diretório do projeto, você pode executar:
 
-### `npm run eject`
+ `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+  Executa o aplicativo no modo de desenvolvimento.\
+  Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
+  
+  A página será recarregada se você fizer edições.\
+  Você também verá alguns erros de lint no console.
+  
+  ### Inicie o executor de teste no modo de observação interativo.
+   `teste npm`
